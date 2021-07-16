@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Master Flexbox</title>
+  </head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--    Top Trending Now    -->
+    <div class="trending-wrap">
+      <div class="trending">
+        <h1 class="trending-title">Top Trending Now</h1>
+        <div class="trending-list">
+          <div class="trending-item">
+            <div class="trending-image">
+              <img src="images/card-pic-1.png" alt="" />
+              <div class="trending-rank">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="trending-content">
+              <div class="content-header">
+                <div class="live">
+                  <ion-icon class="live-icon" name="wifi-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="category">
+                  <span>Shooter</span>
+                </div>
+              </div>
+              <div class="content-title">
+                <h2 class="title">
+                  Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs
+                  PoE
+                </h2>
+              </div>
+              <div class="content-status">
+                <div class="status-watching">
+                  <div class="status-circle status--blue"></div>
+                  <span>4.2K watching</span>
+                </div>
+                <div class="status-Ontime">
+                  <div class="status-circle status--green"></div>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+              <div class="content-detail">
+                <div class="detail-header">
+                  <img class="header-image" src="images/ava-1.png" alt="" />
+                </div>
+                <div class="detail-main">
+                  <div class="detail-main-wrap">
+                    <div class="detail-name">Gabriel Erickson</div>
+                    <div class="confirm">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="detail-footer">Call of Duty</div>
+                </div>
+              </div>
+              <div class="action">
+                <div class="action-share">
+                  <i class="fas fa-share"></i>
+                </div>
+                <div class="action-watch">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="action-like">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="trending-image">
+              <img src="images/card-pic-2.png" alt="" />
+              <div class="trending-rank">2</div>
+            </div>
+            <div class="trending-content">
+              <div class="content-header">
+                <div class="live">
+                  <ion-icon class="live-icon" name="wifi-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="category">
+                  <span>Shooter</span>
+                </div>
+              </div>
+              <div class="content-title">
+                <h2 class="title">
+                  Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs
+                  PoE
+                </h2>
+              </div>
+              <div class="content-status">
+                <div class="status-watching">
+                  <div class="status-circle status--blue"></div>
+                  <span>4.2K watching</span>
+                </div>
+                <div class="status-Ontime">
+                  <div class="status-circle status--green"></div>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+              <div class="content-detail">
+                <div class="detail-header">
+                  <img class="header-image" src="images/ava-2.png" alt="" />
+                </div>
+                <div class="detail-main">
+                  <div class="detail-main-wrap">
+                    <div class="detail-name">Gabriel Erickson</div>
+                    <div class="confirm">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="detail-footer">Call of Duty</div>
+                </div>
+              </div>
+              <div class="action">
+                <div class="action-share">
+                  <i class="fas fa-share"></i>
+                </div>
+                <div class="action-watch">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="action-like">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="trending-image">
+              <img src="images/card-pic-3.png" alt="" />
+              <div class="trending-rank">3</div>
+            </div>
+            <div class="trending-content">
+              <div class="content-header">
+                <div class="live">
+                  <ion-icon class="live-icon" name="wifi-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="category">
+                  <span>Shooter</span>
+                </div>
+              </div>
+              <div class="content-title">
+                <h2 class="title">New Sub Emotes And Badges! Lets goooo</h2>
+              </div>
+              <div class="content-status">
+                <div class="status-watching">
+                  <div class="status-circle status--blue"></div>
+                  <span>4.2K watching</span>
+                </div>
+                <div class="status-Ontime">
+                  <div class="status-circle status--green"></div>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+              <div class="content-detail">
+                <div class="detail-header">
+                  <img class="header-image" src="images/ava-3.png" alt="" />
+                </div>
+                <div class="detail-main">
+                  <div class="detail-main-wrap">
+                    <div class="detail-name">Gabriel Erickson</div>
+                    <div class="confirm">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="detail-footer">Call of Duty</div>
+                </div>
+              </div>
+              <div class="action">
+                <div class="action-share">
+                  <i class="fas fa-share"></i>
+                </div>
+                <div class="action-watch">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="action-like">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="trending-image">
+              <img src="images/card-pic-4.png" alt="" />
+              <div class="trending-rank">4</div>
+            </div>
+            <div class="trending-content">
+              <div class="content-header">
+                <div class="live">
+                  <ion-icon class="live-icon" name="wifi-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="category">
+                  <span>Shooter</span>
+                </div>
+              </div>
+              <div class="content-title">
+                <h2 class="title">
+                  Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs
+                  PoE
+                </h2>
+              </div>
+              <div class="content-status">
+                <div class="status-watching">
+                  <div class="status-circle status--blue"></div>
+                  <span>4.2K watching</span>
+                </div>
+                <div class="status-Ontime">
+                  <div class="status-circle status--green"></div>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+              <div class="content-detail">
+                <div class="detail-header">
+                  <img class="header-image" src="images/ava-4.png" alt="" />
+                </div>
+                <div class="detail-main">
+                  <div class="detail-main-wrap">
+                    <div class="detail-name">Gabriel Erickson</div>
+                    <div class="confirm">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="detail-footer">Call of Duty</div>
+                </div>
+              </div>
+              <div class="action">
+                <div class="action-share">
+                  <i class="fas fa-share"></i>
+                </div>
+                <div class="action-watch">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="action-like">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="trending-image">
+              <img src="images/card-pic-5.png" alt="" />
+              <div class="trending-rank">5</div>
+            </div>
+            <div class="trending-content">
+              <div class="content-header">
+                <div class="live">
+                  <ion-icon class="live-icon" name="wifi-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="category">
+                  <span>Shooter</span>
+                </div>
+              </div>
+              <div class="content-title">
+                <h2 class="title">
+                  Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs
+                  PoE
+                </h2>
+              </div>
+              <div class="content-status">
+                <div class="status-watching">
+                  <div class="status-circle status--blue"></div>
+                  <span>4.2K watching</span>
+                </div>
+                <div class="status-Ontime">
+                  <div class="status-circle status--green"></div>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+              <div class="content-detail">
+                <div class="detail-header">
+                  <img class="header-image" src="images/ava-6.png" alt="" />
+                </div>
+                <div class="detail-main">
+                  <div class="detail-main-wrap">
+                    <div class="detail-name">Gabriel Erickson</div>
+                    <div class="confirm">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="detail-footer">Call of Duty</div>
+                </div>
+              </div>
+              <div class="action">
+                <div class="action-share">
+                  <i class="fas fa-share"></i>
+                </div>
+                <div class="action-watch">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="action-like">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div class="trending-image">
+              <img src="images/card-pic-6.png" alt="" />
+              <div class="trending-rank">6</div>
+            </div>
+            <div class="trending-content">
+              <div class="content-header">
+                <div class="live">
+                  <ion-icon class="live-icon" name="wifi-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="category">
+                  <span>Shooter</span>
+                </div>
+              </div>
+              <div class="content-title">
+                <h2 class="title">
+                  Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs
+                  PoE
+                </h2>
+              </div>
+              <div class="content-status">
+                <div class="status-watching">
+                  <div class="status-circle status--blue"></div>
+                  <span>4.2K watching</span>
+                </div>
+                <div class="status-Ontime">
+                  <div class="status-circle status--green"></div>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+              <div class="content-detail">
+                <div class="detail-header">
+                  <img class="header-image" src="images/ava-6.png" alt="" />
+                </div>
+                <div class="detail-main">
+                  <div class="detail-main-wrap">
+                    <div class="detail-name">Gabriel Erickson</div>
+                    <div class="confirm">
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="detail-footer">Call of Duty</div>
+                </div>
+              </div>
+              <div class="action">
+                <div class="action-share">
+                  <i class="fas fa-share"></i>
+                </div>
+                <div class="action-watch">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="action-like">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="spacing" style="height: 50px"></div>
+
+    <!--    Recent Notification    -->
+    <div class="notification-wrap">
+      <div class="notification">
+        <div class="notification-title">
+          <h2>Recent Notification</h2>
+        </div>
+        <div class="notification-list">
+          <div class="notification-item">
+            <div class="notification-item-profile">
+              <div class="profile-image">
+                <img src="images/ava-5.png" alt="" />
+              </div>
+              <div class="profile-status status-shopping">
+                <i class="fas fa-shopping-bag"></i>
+              </div>
+            </div>
+            <div class="notification-item-content">
+              <div class="content-name">Glenn Greer</div>
+              <div class="content-status">
+                Commented on <span>Collab.</span> 12h
+              </div>
+              <div class="content-comment">
+                "Love this so much! What tools do you use to create your 3d
+                illustrations?"
+              </div>
+              <div class="content-action">
+                <button class="action-button">
+                  <i class="fas fa-comment"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-thumbs-up"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-star"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+            </div>
+            <div class="notification-image background-color1">
+              <img src="images/figure-1.png" alt="" />
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="notification-item-profile">
+              <div class="profile-image">
+                <img src="images/ava-2.png" alt="" />
+              </div>
+              <div class="profile-status status-online"></div>
+            </div>
+            <div class="notification-item-content">
+              <div class="content-name">Glenn Greer</div>
+              <div class="content-status">
+                Commented on <span>Collab.</span> 12h
+              </div>
+              <div class="content-comment">
+                "Love this so much! What tools do you use to create your 3d
+                illustrations?"
+              </div>
+              <div class="content-action">
+                <button class="action-button">
+                  <i class="fas fa-comment"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-thumbs-up"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-star"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+            </div>
+            <div class="notification-image background-color2">
+              <img src="images/figure-1.png" alt="" />
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="notification-item-profile">
+              <div class="profile-image">
+                <img src="images/ava-4.png" alt="" />
+              </div>
+              <div class="profile-status status-online"></div>
+            </div>
+            <div class="notification-item-content">
+              <div class="content-name">Glenn Greer</div>
+              <div class="content-status">
+                Commented on <span>Collab.</span> 12h
+              </div>
+              <div class="content-comment">
+                "Love this so much! What tools do you use to create your 3d
+                illustrations?"
+              </div>
+              <div class="content-action">
+                <button class="action-button">
+                  <i class="fas fa-comment"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-thumbs-up"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-star"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+            </div>
+            <div class="notification-image background-color3">
+              <img src="images/figure-1.png" alt="" />
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="notification-item-profile">
+              <div class="profile-image">
+                <img src="images/ava-3.png" alt="" />
+              </div>
+              <div class="profile-status status-liked">
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+            <div class="notification-item-content">
+              <div class="content-name">Glenn Greer</div>
+              <div class="content-status">
+                Commented on <span>Collab.</span> 12h
+              </div>
+              <div class="content-comment">
+                "Love this so much! What tools do you use to create your 3d
+                illustrations?"
+              </div>
+              <div class="content-action">
+                <button class="action-button">
+                  <i class="fas fa-comment"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-thumbs-up"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-star"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+            </div>
+            <div class="notification-image background-color4">
+              <img src="images/figure-1.png" alt="" />
+            </div>
+          </div>
+          <div class="notification-item">
+            <div class="notification-item-profile">
+              <div class="profile-image">
+                <img src="images/ava-6.png" alt="" />
+              </div>
+              <div class="profile-status status-online"></div>
+            </div>
+            <div class="notification-item-content">
+              <div class="content-name">Glenn Greer</div>
+              <div class="content-status">
+                Commented on <span>Collab.</span> 12h
+              </div>
+              <div class="content-comment">
+                "Love this so much! What tools do you use to create your 3d
+                illustrations?"
+              </div>
+              <div class="content-action">
+                <button class="action-button">
+                  <i class="fas fa-comment"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-thumbs-up"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-star"></i>
+                </button>
+                <button class="action-button">
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+            </div>
+            <div class="notification-image background-color5">
+              <img src="images/figure-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <button class="button">Load More</button>
+      </div>
+    </div>
+
+    <div class="spacing" style="height: 50px"></div>
+
+    <!--    Jobs List    -->
+    <div class="job-list-wrap">
+      <h1 class="job-list-title">Showing 6 Jobs</h1>
+      <div class="jobs-wrap">
+        <div class="job-list">
+          <div class="job-list-item">
+            <div class="job-logo">
+              <img src="images/3721683-evernote_108060.png" alt="" />
+            </div>
+            <h3 class="job-title">Lead Product Design</h3>
+            <div class="job-detail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              eveniet maiores rem fugit voluptatem ipsa quisquam temporibus
+              numquam tempora ducimus saepe dolore architecto, ut consequuntur
+              corporis amet tempore nesciunt magni.
+            </div>
+            <div class="job-option">
+              <div class="option-item">Full Time</div>
+              <div class="option-item">Min 1 Year</div>
+              <div class="option-item">Director</div>
+            </div>
+            <div class="job-friends">
+              <div class="friends-item">
+                <img src="images/face10.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face4.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face9.png" alt="" />
+              </div>
+              <div class="friends-item">+2</div>
+              <div class="friends-count">5 Friends Work here</div>
+            </div>
+            <div class="job-action">
+              <button class="action-button">Apply Now</button>
+              <button class="action-button">Messages</button>
+            </div>
+          </div>
+          <div class="job-list-item">
+            <div class="job-logo">
+              <img src="images/mailchimp_icon_130881.png" alt="" />
+            </div>
+            <h3 class="job-title">UI / UX Designer - Remote</h3>
+            <div class="job-detail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              eveniet maiores rem fugit voluptatem ipsa quisquam temporibus
+              numquam tempora ducimus saepe dolore architecto, ut consequuntur
+              corporis amet tempore nesciunt magni.
+            </div>
+            <div class="job-option">
+              <div class="option-item">Full Time</div>
+              <div class="option-item">Min 1 Year</div>
+              <div class="option-item">Director</div>
+            </div>
+            <div class="job-friends">
+              <div class="friends-item">
+                <img src="images/face10.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face4.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face9.png" alt="" />
+              </div>
+              <div class="friends-item">+2</div>
+              <div class="friends-count">5 Friends Work here</div>
+            </div>
+            <div class="job-action">
+              <button class="action-button">Apply Now</button>
+              <button class="action-button">Messages</button>
+            </div>
+          </div>
+          <div class="job-list-item">
+            <div class="job-logo">
+              <img src="images/Microsoft_23401.png" alt="" />
+            </div>
+            <h3 class="job-title">Lead Product Design</h3>
+            <div class="job-detail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              eveniet maiores rem fugit voluptatem ipsa quisquam temporibus
+              numquam tempora ducimus saepe dolore architecto, ut consequuntur
+              corporis amet tempore nesciunt magni.
+            </div>
+            <div class="job-option">
+              <div class="option-item">Full Time</div>
+              <div class="option-item">Min 1 Year</div>
+              <div class="option-item">Director</div>
+            </div>
+            <div class="job-friends">
+              <div class="friends-item">
+                <img src="images/face10.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face4.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face9.png" alt="" />
+              </div>
+              <div class="friends-item">+2</div>
+              <div class="friends-count">5 Friends Work here</div>
+            </div>
+            <div class="job-action">
+              <button class="action-button">Apply Now</button>
+              <button class="action-button">Messages</button>
+            </div>
+          </div>
+          <div class="job-list-item">
+            <div class="job-logo">
+              <img src="images/airbnb_icon_131000.png" alt="" />
+            </div>
+            <h3 class="job-title">UI / UX Designer - Remote</h3>
+            <div class="job-detail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              eveniet maiores rem fugit voluptatem ipsa quisquam temporibus
+              numquam tempora ducimus saepe dolore architecto, ut consequuntur
+              corporis amet tempore nesciunt magni.
+            </div>
+            <div class="job-option">
+              <div class="option-item">Full Time</div>
+              <div class="option-item">Min 1 Year</div>
+              <div class="option-item">Director</div>
+            </div>
+            <div class="job-friends">
+              <div class="friends-item">
+                <img src="images/face10.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face4.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face9.png" alt="" />
+              </div>
+              <div class="friends-item">+2</div>
+              <div class="friends-count">5 Friends Work here</div>
+            </div>
+            <div class="job-action">
+              <button class="action-button">Apply Now</button>
+              <button class="action-button">Messages</button>
+            </div>
+          </div>
+          <div class="job-list-item">
+            <div class="job-logo">
+              <img src="images/Dropbox_icon-icons.com_66767.png" alt="" />
+            </div>
+            <h3 class="job-title">Lead Product Design</h3>
+            <div class="job-detail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              eveniet maiores rem fugit voluptatem ipsa quisquam temporibus
+              numquam tempora ducimus saepe dolore architecto, ut consequuntur
+              corporis amet tempore nesciunt magni.
+            </div>
+            <div class="job-option">
+              <div class="option-item">Full Time</div>
+              <div class="option-item">Min 1 Year</div>
+              <div class="option-item">Director</div>
+            </div>
+            <div class="job-friends">
+              <div class="friends-item">
+                <img src="images/face10.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face4.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face9.png" alt="" />
+              </div>
+              <div class="friends-item">+2</div>
+              <div class="friends-count">5 Friends Work here</div>
+            </div>
+            <div class="job-action">
+              <button class="action-button">Apply Now</button>
+              <button class="action-button">Messages</button>
+            </div>
+          </div>
+          <div class="job-list-item">
+            <div class="job-logo">
+              <img src="images/1485482357-yahoo_78671.png" alt="" />
+            </div>
+            <h3 class="job-title">UI / UX Designer - Remote</h3>
+            <div class="job-detail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              eveniet maiores rem fugit voluptatem ipsa quisquam temporibus
+              numquam tempora ducimus saepe dolore architecto, ut consequuntur
+              corporis amet tempore nesciunt magni.
+            </div>
+            <div class="job-option">
+              <div class="option-item">Full Time</div>
+              <div class="option-item">Min 1 Year</div>
+              <div class="option-item">Director</div>
+            </div>
+            <div class="job-friends">
+              <div class="friends-item">
+                <img src="images/face10.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face4.png" alt="" />
+              </div>
+              <div class="friends-item">
+                <img src="images/face9.png" alt="" />
+              </div>
+              <div class="friends-item">+2</div>
+              <div class="friends-count">5 Friends Work here</div>
+            </div>
+            <div class="job-action">
+              <button class="action-button">Apply Now</button>
+              <button class="action-button">Messages</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
