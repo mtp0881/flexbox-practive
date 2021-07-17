@@ -349,6 +349,7 @@ a {
 }
 .notification-action {
   margin-left: -16px;
+  display: flex;
 }
 .notification-button {
   border: none;
@@ -363,7 +364,6 @@ a {
   border: 1px solid #a4a5a6;
   border-radius: 50%;
   background-color: transparent;
-  display: inline-block;
   cursor: pointer;
   margin-left: 16px;
   transition: color 0.2s ease;
@@ -506,7 +506,6 @@ a {
   margin: 20px 0 0px 0;
   display: flex;
   align-items: stretch;
-  justify-content: left;
 }
 .job-list .tag-item {
   padding: 8px 10px;
@@ -579,25 +578,26 @@ a {
   width: calc(100% / 2 - 10px);
   outline: none;
   border: none;
-  background-color: transparent;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 22px;
-  color: white;
-  background-color: #2664ff;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.25s ease;
 }
-.job-list .action-button:hover {
+.job-list .action-button--blue {
+  background-color: #2664ff;
+  color: white;
+}
+.job-list .action-button--blue:hover {
   background-color: #2050c9;
 }
-.job-list .action-button:last-child {
-  color: #81818c;
+.job-list .action-button--gray {
   background-color: #f1f1f5;
+  color: #81818c;
 }
-.job-list .action-button:last-child:hover {
-  background-color: #d9d9db;
+.job-list .action-button--gray:hover {
+  background-color: #dedee0;
 }
 
 /*      Jobs List End       */
