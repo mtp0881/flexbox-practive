@@ -1,1 +1,1 @@
-ビュー : https://mtp0881.github.io/practiveFlexbox1/
+ビュー : https://mtp0881.github.io/practiveFlexbox
